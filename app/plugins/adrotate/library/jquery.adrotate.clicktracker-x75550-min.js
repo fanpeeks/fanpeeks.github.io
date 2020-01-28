@@ -1,0 +1,1 @@
+!function($){$(document).ready(function(){$(document).on("click","a.gofollow",function(){var t=$(this).attr("data-track"),a=$(this).attr("data-debug");$.post(click_object.ajax_url,{action:"adrotate_click",track:t}),1==a&&alert("Tracker: "+t+"\nclick_object.ajax_url: "+click_object.ajax_url)})})}(jQuery);
